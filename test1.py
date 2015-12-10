@@ -1,5 +1,7 @@
 class Person:
+	def __init__(self,name):
+		self.name=name
 	def sayHi(self):
-		print('Hello,how are you?')
-p=Person()
+		print('Hello, my name is',self.name)
+p=Person('Guoxiu He')
 p.sayHi()
